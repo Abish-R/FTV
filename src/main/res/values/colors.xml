@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryDark">#9f1916</color>
+    <color name="colorAccent">#00B0FF</color>
+    <color name="black">#000000</color>
+    <color name="toolbar_red">#d02525</color>
+    <color name="light_red">#ff4d4d</color>
+    <color name="statusbar_red">#d43a3a</color>
+    <color name="yellow">#f2e608</color>
+    <color name="white">#FFFFFF</color>
+    <color name="button_pressed">#cc0000</color>
+    <color name="button_focused">#ff8080</color>
+    <color name="button_default">#ffb3b3</color>
+    <color name="down_card_fade">#10b8b6b6</color>
+    <color name="black_trans80">#14000000</color>
+    <color name="black_trans">#14f9f9f9</color>
+
+
+
+    <color name="colorPrimary">#CC0000</color>
+    <color name="colorPrimary2">#F44336</color>
+    <color name="colorPrimary3">#3F51B5</color>
+    <color name="colorPrimary4">#2196F3</color>
+    <color name="colorPrimary5">#00BCD4</color>
+    <color name="colorPrimary6">#FF5722</color>
+    <color name="colorPrimary7">#FFEB3B</color>
+    <color name="colorPrimary8">#4CAF50</color>
+    <color name="lightBackgroungColor2">#FFCDD2</color>
+    <color name="lightBackgroungColor3">#C5CAE9</color>
+    <color name="lightBackgroungColor4">#BBDEFB</color>
+    <color name="lightBackgroungColor5">#B2EBF2</color>
+    <color name="lightBackgroungColor6">#FFCCBC</color>
+    <color name="lightBackgroungColor7">#FFF9C4</color>
+    <color name="lightBackgroungColor8">#C8E6C9</color>
+</resources>

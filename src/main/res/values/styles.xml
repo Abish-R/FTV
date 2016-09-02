@@ -1,0 +1,276 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:windowAnimationStyle">@style/Fade</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="lightBackgroungColor">@color/light_red</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/white</item>
+
+
+
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+    <style name="CustomDialogTheme" parent="@android:style/Theme.Dialog">
+
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#FFEB3B</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor2</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/white</item>
+
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+
+    </style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor3</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/white</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme4" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary4</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#FF5722</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor4</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="iconColor">@color/black</item>
+
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme5" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary5</item>
+        <item name="colorPrimaryDark">#0097A7</item>
+        <item name="colorAccent">#8BC34A</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor5</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="iconColor">@color/black</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+    </style>
+
+    <style name="AppTheme6" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary6</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">#7C4DFF</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor6</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/white</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+    </style>
+
+    <style name="AppTheme7" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary7</item>
+        <item name="colorPrimaryDark">#FBC02D</item>
+        <item name="colorAccent">#536DFE</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor7</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="iconColor">@color/black</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme8" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary8</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#FFEB3B</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor8</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/white</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="lightBackgroungColor">@color/light_red</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="iconColor">@color/white</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.AppBarOverlayLight" parent="ThemeOverlay.AppCompat.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Dark" />
+    <style name="AppTheme.PopupOverlayLight" parent="ThemeOverlay.AppCompat.Light" />
+    <style name="AppTheme.PopupOverlayDark" parent="ThemeOverlay.AppCompat.Dark" />
+
+    <style name="AppTheme.NoTitle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="TextLabel" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">#ffffff</item>
+        <item name="android:textSize">20sp</item>
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <item name="colorAccent">#ffffff</item>
+
+    </style>
+
+
+    <style name="AppTheme2.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary2</item>
+        <item name="colorPrimaryDark">#D32F2F</item>
+        <item name="colorAccent">#FFEB3B</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor2</item>
+
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="iconColor">@color/white</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme3.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary3</item>
+        <item name="colorPrimaryDark">#303F9F</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor3</item>
+        <item name="colorAccent">#FFC107</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/white</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme4.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary4</item>
+        <item name="colorPrimaryDark">#1976D2</item>
+        <item name="colorAccent">#FF5722</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor4</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="iconColor">@color/white</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+
+    </style>
+
+    <style name="AppTheme5.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your them.NoActionBare here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary5</item>
+        <item name="colorPrimaryDark">#0097A7</item>
+        <item name="colorAccent">#8BC34A</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor5</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="iconColor">@color/white</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme6.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary6</item>
+        <item name="colorPrimaryDark">#E64A19</item>
+        <item name="colorAccent">#7C4DFF</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor6</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+        <item name="iconColor">@color/white</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme7.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowFullscreen">true</item>
+        <item name="colorPrimary">@color/colorPrimary7</item>
+        <item name="colorPrimaryDark">#FBC02D</item>
+        <item name="colorAccent">#536DFE</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor7</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="iconColor">@color/black</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+
+    <style name="AppTheme8.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowFullscreen">true</item><!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary8</item>
+        <item name="colorPrimaryDark">#388E3C</item>
+        <item name="colorAccent">#FFEB3B</item>
+        <item name="lightBackgroungColor">@color/lightBackgroungColor8</item>
+        <item name="appbarStyle">@style/ThemeOverlay.AppCompat.ActionBar</item>
+        <item name="bottombarStyle">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="iconColor">@color/black</item>
+        <!-- <item name="android:textColorPrimary">#212121</item>-->
+
+    </style>
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="Fade">
+        <item name="android:windowEnterAnimation">@anim/fadein</item>
+        <item name="android:windowExitAnimation">@anim/fadeout</item>
+    </style>
+
+</resources>

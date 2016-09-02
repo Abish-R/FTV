@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_red"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+
+        android:background="@color/colorAccent"
+        android:fontFamily=""
+
+        android:gravity="center_horizontal"
+        android:padding="@dimen/activity_horizontal_margin"
+
+        android:text="GET ADDRESS DETAILS"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationZ="10dp"
+
+        />
+
+
+    <RelativeLayout
+        android:id="@+id/second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address"
+        android:layout_marginTop="24dp"
+
+        >
+
+        <EditText
+            android:id="@+id/stname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#ffffff"
+            android:digits="@string/address"
+            android:hint="Street Name"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textColorHint="#FFFFFF"
+
+
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/stname"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#ffffff"
+            android:digits="@string/addressText"
+            android:hint="City"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textColorHint="#FFFFFF"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/state"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/city"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="@color/white"
+            android:digits="@string/addressText"
+            android:hint="State"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textColorHint="@color/white"
+
+            android:textSize="@dimen/text_size" />
+
+        <LinearLayout
+            android:id="@+id/counpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/state"
+            android:layout_marginLeft="5dp"
+
+            android:layout_marginRight="5dp"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/country"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/state"
+                android:layout_weight="1"
+                android:backgroundTint="#ffffff"
+                android:digits="@string/addressText"
+                android:ellipsize="end"
+                android:hint="Country"
+                android:inputType="text"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:singleLine="true"
+
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#ffffff"
+                android:textColorHint="#ffffff"
+                android:textSize="@dimen/text_size" />
+
+            <EditText
+                android:id="@+id/pin"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/country"
+                android:layout_weight="0.6"
+                android:backgroundTint="#ffffff"
+                android:ellipsize="end"
+                android:hint="Pincode"
+                android:inputType="number"
+                android:maxLength="6"
+
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+
+
+                android:textColor="#ffffff"
+                android:textColorHint="#FFFFFF"
+                android:textSize="@dimen/text_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <Button
+        android:id="@+id/btnShowAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:layout_below="@+id/second"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/ic_gps_fixed_black_24dp"
+        android:text="  Get location via GPS" />
+
+    <TextView
+        android:id="@+id/tvAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnShowAddress"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="?attr/colorPrimaryDark"
+        android:text="SUBMIT"
+        android:textColor="#ffffff" />
+</RelativeLayout>

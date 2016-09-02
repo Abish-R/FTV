@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">FTV</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="forgot_password_text">Verification code is sent to your configured mail ID. Please enter the valid code to change your password.</string>
+    <string name="ftv">M45,5 l0,10 l-25,0 l0,10 l15,0 l0,10 l-15,0 l0,20 l-10,0 l0,-50 l35,0 l10,0 l40,0 l0,10, l-15,0 l0,40 l-10,0 l0,-40 l-15,0 l0,-10 l40,0 l20,0 l10,40 l10,-40 l10,0 l-14,50 l-12,0 l-14,-50 Z</string>
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <!--<string name="app_id">138608303213868</string>-->
+    <string name="app_id">470087989863520</string>
+    <string name="username_string">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890-_.@</string>
+    <string name="name_string">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM .</string>
+    <string name="email_string">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890_.@</string>
+    <string name="mob_numbers">0123456789</string>
+    <string name="dp">Click and set profile picture</string>
+    <string name="hint_name">Username</string>
+    <string name="address">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890-. ;()/\|_</string>
+    <string name="addressText">qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890 .-</string>
+    <string name="title_activity_product_description">ProductDescriptionActivity</string>
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse non vehicula massa, vel consequat metus. Vivamus sit amet ligula justo. Praesent sodales ut nisi sit amet commodo. Nulla fermentum blandit mattis. Sed non sem congue, porttitor odio et, porta turpis. Donec ullamcorper, enim eu congue efficitur, sapien nunc rhoncus ante, vitae placerat magna eros a elit. Phasellus varius mauris sit amet pellentesque convallis. Donec rhoncus rhoncus odio, eget pellentesque nisi. Sed facilisis rutrum urna vitae faucibus. Aliquam suscipit nibh eu tincidunt pellentesque. Nulla quis nisl ut eros facilisis dictum at tempus orci. Nunc ac nisl in nulla pulvinar placerat tristique vel mauris. Aenean nulla magna, feugiat sit amet tristique non, volutpat vitae eros. In hac habitasse platea dictumst.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pager">PagerActivity</string>
+</resources>

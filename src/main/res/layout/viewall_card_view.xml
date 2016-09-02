@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.glomadrian.roadrunner.IndeterminateRoadRunner
+            android:layout_centerInParent="true"
+            android:id="@+id/progress_bar"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+
+            app:movement_direction="counter_clockwise"
+            app:path_animation_type="material"
+            app:path_color="?attr/colorAccent"
+            app:path_data="@string/ftv"
+            app:path_original_height="60"
+            app:path_original_width="150"
+            app:stroke_width="4sp" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="32dp"
+            android:scaleType="fitCenter"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/imageView"
+            android:layout_alignTop="@id/imageView"
+            android:src="@drawable/image_view_screen" />
+
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:padding="12dp"
+            app:srcCompat="@drawable/ic_share" />
+
+        <!--       <ImageView
+                   android:id="@+id/like"
+                   android:layout_width="48dp"
+                   android:layout_height="48dp"
+                   android:layout_toRightOf="@+id/like_list"
+                   android:padding="12dp"
+                   android:tint="#ffffff"
+                   app:srcCompat="@drawable/thumb_up" />
+       -->
+        <ImageView
+            android:id="@+id/like_list"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@+id/share"
+            android:padding="12dp"
+            android:tint="#3F51B5"
+            app:srcCompat="@drawable/thumb_up" />
+
+        <ImageView
+            android:id="@+id/like"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_toLeftOf="@+id/like_list"
+            android:padding="12dp"
+            android:tint="@color/light_red"
+            app:srcCompat="@drawable/heart_outline" />
+
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="16dp"
+
+                android:text="PRICE : "
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RatingBar
+                android:id="@+id/ratingBar"
+                style="?android:attr/ratingBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/price"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="2dp"
+                android:isIndicator="true"
+                android:numStars="5"
+                android:rating="5" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toRightOf="@+id/textView"
+                android:text="₹400"
+                android:textSize="18sp" />
+
+
+            <Button
+                android:id="@+id/addToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:drawableLeft="@drawable/ic_cart_plus"
+                android:text="ADD TO CART"
+                android:textSize="14dp" />
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/relativeLayout"
+            android:layout_alignStart="@+id/relativeLayout"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_toLeftOf="@+id/like"
+            android:text="Nike Shoes"
+            android:textColor="#fff"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

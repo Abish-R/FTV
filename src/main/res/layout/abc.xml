@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/minusQty"
+        android:layout_width="35dp"
+        android:text= "-"
+
+        android:layout_height="35dp"
+
+     />
+
+    <TextView
+        android:layout_width="35dp"
+        android:id="@+id/qty"
+        android:layout_height="35dp"
+        android:text="1"
+        android:padding="10dp"
+        android:layout_toRightOf="@+id/minusQty"
+     />
+    <Button
+        android:id="@+id/plusQty"
+        android:layout_width="35dp"
+        android:text= "+"
+
+        android:layout_height="35dp"
+      android:layout_toRightOf="@+id/qty"/>
+
+</RelativeLayout>

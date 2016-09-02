@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_gravity="right|end"
+    android:theme="?attr/bottombarStyle"
+
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:paddingTop="2dp"
+    android:paddingBottom="8dp">
+
+    <!-- Menu Item Image -->
+    <ImageView
+
+       android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingEnd="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp"
+        android:src="@drawable/ic_cart"
+        android:tint="?attr/iconColor" />
+
+    <!-- Badge Count -->
+    <TextView
+        android:id="@+id/actionbar_notifcation_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="?attr/colorAccent"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:paddingTop="2dp"
+        android:text="3"
+        android:textStyle="bold" />
+
+</RelativeLayout>

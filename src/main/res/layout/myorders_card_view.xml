@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_below="@+id/purchaseDate"
+            android:layout_marginLeft="16dp"
+
+            android:foregroundGravity="center" />
+
+        <TextView
+            android:id="@+id/purchaseDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+
+
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Purchase Date"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/purchaseDate"
+            android:layout_marginLeft="16dp"
+            android:scaleType="centerCrop"
+
+
+            android:tint="#50000000"
+            android:tintMode="src_over"
+
+            android:visibility="visible" />
+
+        <!--<Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/review"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:drawableLeft="@drawable/comment_text"
+            android:text="Review" />-->
+
+
+        <RelativeLayout
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/purchaseDate"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:layout_toRightOf="@+id/imageView"
+            >
+
+
+            <TextView
+
+                android:id="@+id/name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:text="Nike Shoes"
+                android:textSize="20sp"
+
+                android:textStyle="bold"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/qty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_below="@+id/name"
+                android:text="Qty=1 "
+
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/price_per_unit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/name"
+                android:textSize="18sp"
+                android:layout_toRightOf="@+id/qty"
+                android:text="Price/ut=400"
+                android:paddingLeft="8dp"
+
+                 />
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details"
+            android:layout_toRightOf="@+id/imageView"
+            android:layout_marginLeft="10dp"
+            >
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total Price: ₹40"
+            android:textSize="16sp" />
+        <ImageView
+            android:id="@+id/share"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="8dp"
+            android:backgroundTint="@color/black"
+            android:layout_marginBottom="5dp"
+            android:textSize="18sp"
+            android:layout_alignParentRight="true"
+            android:layout_toRightOf="@+id/price"
+            android:layout_below="@+id/price_per_unit"
+            android:background="@drawable/ic_share" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

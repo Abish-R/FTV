@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:background="#ffffff"
+    android:id="@+id/ViewAllLayout"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    app:cardBackgroundColor="#fff"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="16dp">
+
+        <RelativeLayout
+            android:id="@+id/relatedTV"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/categoryName"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:text="Related Products"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                style="?android:attr/buttonBarButtonStyle"
+                android:id="@+id/ViewAllButton"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="end|right"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="View All"
+                android:textSize="14sp" />
+
+
+        </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingTop="4dp"></android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
+

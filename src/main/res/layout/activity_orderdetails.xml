@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/orderDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_blue"
+        android:orientation="horizontal"
+        android:weightSum="3.0">
+
+        <TextView
+            android:id="@+id/purchaseDate"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Ordered on\n1996-10-23"
+
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/items"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Items\n 1"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+
+            android:background="#fff" />
+
+        <TextView
+            android:id="@+id/grandTotal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="   Grand Total \nRs. 199"
+            android:textColor="#fff"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/updateDetals"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/orderDetails"
+        android:background="#ffffff"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/updates"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Updates sent to"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updates"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/phone"
+            android:gravity="center"
+            android:text="9928066227"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/phone"
+            android:layout_marginLeft="5dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:gravity="center"
+            android:text="AMAN231096@gmail.com"
+            android:textSize="18sp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/imageDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/manageOrder"
+        android:layout_below="@+id/updateDetals"
+
+        android:background="#D3D3D3">
+
+        <ImageView
+            android:background="@color/white"
+            android:id="@+id/prodImg"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:scaleType="fitCenter" />
+
+       <!-- <TextView
+            android:id="@+id/prodName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="20dp"
+            android:text="Name of the Product"
+            android:textColor="#000"
+            android:textSize="20sp" />-->
+
+        <!--<TextView
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/priceUt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="1dp"
+            android:layout_marginRight="1dp"
+            android:gravity="bottom"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="Price : Rs.199"
+            android:textColor="#000"
+            android:textSize="18sp" />-->
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/manageOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentBottom="true"
+        android:background="#ffffff"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/manage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Manage Your Order"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/manage"
+            android:orientation="horizontal"
+
+
+            android:weightSum="2">
+
+            <TextView
+                android:id="@+id/emailInvoice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/manage"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/ic_email_outline"
+                android:gravity="center"
+                android:text="Email Invoice"
+                android:textSize="18sp" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="fill_parent"
+
+                android:background="#989898" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/manage"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/email"
+                android:layout_weight="1"
+                android:background="#ffffff"
+                android:drawableTop="@drawable/ic_help_circle_outline"
+                android:gravity="center"
+                android:text="Need Help?"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</RelativeLayout>
+
+

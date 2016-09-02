@@ -1,0 +1,181 @@
+{
+  "project_info": {
+    "project_number": "547006963064",
+    "firebase_url": "https://money-tracker-983.firebaseio.com",
+    "project_id": "money-tracker-983",
+    "storage_bucket": "money-tracker-983.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547006963064:android:95a6e49cdb9074aa",
+        "android_client_info": {
+          "package_name": "com.example.harsu.gcmexample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547006963064-js8aij2dcm4pu9rokmjmvs2ci4cbqurk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "547006963064-n1engt4f4mn05q1gteq8gopell5vr3lt.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "547006963064-qn9u76up2148m057per7m1h3oum2hpc5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUQmaPvot_K6nyBUYER_tbJDeyxwU-oFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547006963064:android:d832680e49480325",
+        "android_client_info": {
+          "package_name": "com.example.user.logintest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547006963064-js8aij2dcm4pu9rokmjmvs2ci4cbqurk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "547006963064-n1engt4f4mn05q1gteq8gopell5vr3lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUQmaPvot_K6nyBUYER_tbJDeyxwU-oFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547006963064:android:1e8a57a6462fc4f8",
+        "android_client_info": {
+          "package_name": "tech.helix.ftv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547006963064-9m4pdv8ohobgv3kbm6u9votuhr78k4ng.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tech.helix.ftv",
+            "certificate_hash": "A1CEFA9F5E6BEB40114F5BAD9A6DF9C768A8EEAD"
+          }
+        },
+        {
+          "client_id": "547006963064-js8aij2dcm4pu9rokmjmvs2ci4cbqurk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "547006963064-n1engt4f4mn05q1gteq8gopell5vr3lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUQmaPvot_K6nyBUYER_tbJDeyxwU-oFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547006963064-js8aij2dcm4pu9rokmjmvs2ci4cbqurk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547006963064:android:243aee30cf68644b",
+        "android_client_info": {
+          "package_name": "com.ftv_fashionshop.helixtech_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547006963064-bp7rrl614br0t8mc0n4giupb6kpinl93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ftv_fashionshop.helixtech_android",
+            "certificate_hash": "A1CEFA9F5E6BEB40114F5BAD9A6DF9C768A8EEAD"
+          }
+        },
+        {
+          "client_id": "547006963064-js8aij2dcm4pu9rokmjmvs2ci4cbqurk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "547006963064-n1engt4f4mn05q1gteq8gopell5vr3lt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUQmaPvot_K6nyBUYER_tbJDeyxwU-oFU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547006963064-js8aij2dcm4pu9rokmjmvs2ci4cbqurk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
