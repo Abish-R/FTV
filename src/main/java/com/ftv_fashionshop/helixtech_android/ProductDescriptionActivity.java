@@ -203,6 +203,7 @@ public class ProductDescriptionActivity extends AppCompatActivity {
         findViewById(R.id.progress_bar).setVisibility(View.VISIBLE);
 //        collapsingToolbarLayout.setVisibility(View.VISIBLE);
         Picasso.with(this).load(data.getJSONArray("images").getString(Constants.imageNumberHigh))
+                .priority(Picasso.Priority.HIGH)
                 .memoryPolicy(MemoryPolicy.NO_CACHE).into(productImage, new Callback() {
 
             @Override

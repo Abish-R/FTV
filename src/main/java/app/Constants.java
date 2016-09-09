@@ -12,4 +12,7 @@ public class Constants {
     public static final int ACTIVITY_2 = 1002;
     public static int imageNumber=0;
     public static int imageNumberHigh=0;
+    public static int diplayWidth=0;
+    public static int displayHeight=0;
+    public static int loadedImageNumber=-1;
 }

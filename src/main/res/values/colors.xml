@@ -12,7 +12,7 @@
     <color name="button_pressed">#cc0000</color>
     <color name="button_focused">#ff8080</color>
     <color name="button_default">#ffb3b3</color>
-    <color name="down_card_fade">#10b8b6b6</color>
+    <color name="down_card_fade">#30000000</color>
     <color name="black_trans80">#14000000</color>
     <color name="black_trans">#14f9f9f9</color>
 

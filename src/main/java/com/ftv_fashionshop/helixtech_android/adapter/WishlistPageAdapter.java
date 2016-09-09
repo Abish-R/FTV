@@ -100,7 +100,7 @@ public class WishlistPageAdapter extends RecyclerView.Adapter {
         index = position;
         if (holder instanceof MyViewHolder3)
             try {
-                ((MyViewHolder3) holder).bind(data.getJSONObject(position));
+                ((MyViewHolder3) holder).bind(data.getJSONObject(position), position);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -360,7 +360,7 @@ public class WishlistPageAdapter extends RecyclerView.Adapter {
             });
         }
 
-        public void bind(final JSONObject object) throws JSONException {
+        public void bind(final JSONObject object, final int pos) throws JSONException {
             if (!object.has("isLoadingWish")) {
                 object.put("isLoadingWish", false);
             }
@@ -388,7 +388,7 @@ public class WishlistPageAdapter extends RecyclerView.Adapter {
                 public void onSuccess() {
                     progressBar.setVisibility(View.GONE);
                     backgroundImage.setVisibility(View.VISIBLE);
-
+                    Constants.loadedImageNumber = pos;
 
                 }
 

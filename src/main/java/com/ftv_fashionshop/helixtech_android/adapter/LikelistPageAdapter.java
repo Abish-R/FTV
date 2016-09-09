@@ -95,7 +95,7 @@ public class LikelistPageAdapter extends RecyclerView.Adapter {
     public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
         if (holder instanceof MyViewHolder3)
             try {
-                ((MyViewHolder3) holder).bind(data.getJSONObject(position));
+                ((MyViewHolder3) holder).bind(data.getJSONObject(position), position);
             } catch (JSONException e) {
                 e.printStackTrace();
             }
@@ -283,7 +283,7 @@ public class LikelistPageAdapter extends RecyclerView.Adapter {
             });
         }
 
-        public void bind(final JSONObject object) throws JSONException {
+        public void bind(final JSONObject object, final int pos) throws JSONException {
             if (!object.has("isLoadingLike")) {
                 object.put("isLoadingLike", false);
             }
@@ -303,6 +303,7 @@ public class LikelistPageAdapter extends RecyclerView.Adapter {
                     .into(backgroundImage, new Callback() {
                 @Override
                 public void onSuccess() {
+                    Constants.loadedImageNumber = pos;
                     progressBar.setVisibility(View.GONE);
                     backgroundImage.setVisibility(View.VISIBLE);
                 }

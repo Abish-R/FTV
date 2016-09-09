@@ -61,7 +61,7 @@ public class LandingFragment extends Fragment {
     Runnable r = new Runnable() {
         @Override
         public void run() {
-            if (!scrolling && previousItemNumber == currentItem) {
+            if (!scrolling && previousItemNumber == currentItem && currentItem == Constants.loadedImageNumber) {
                 try {
                     loadHighResImage();
                 } catch (JSONException e) {
@@ -197,7 +197,7 @@ public class LandingFragment extends Fragment {
                     }
                     previousItemNumber = currentItem;
 
-                    handler.postDelayed(r, 800);
+                    handler.postDelayed(r, 1500);
 
                 } else {
                     scrolling = true;

@@ -57,7 +57,7 @@ public class LikeList extends AppCompatActivity {
     Runnable r = new Runnable() {
         @Override
         public void run() {
-            if (!scrolling && previousItemNumber == currentItem) {
+            if (!scrolling && previousItemNumber == currentItem && previousItemNumber == Constants.loadedImageNumber) {
                 try {
                     loadHighResImage();
                 } catch (JSONException e) {
